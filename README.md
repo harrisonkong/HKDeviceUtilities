@@ -69,12 +69,12 @@ Note: It is advised that you call these methods after a slight delay when respon
 Example:
 
 ```
-   DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
 
-       let screenWidth = hkScreenWidth()
-       let screenHeight = hkScreenHeight()
-       // other code
-   }
+    let screenWidth = hkScreenWidth()
+    let screenHeight = hkScreenHeight()
+    // other code
+}
 ```
 
 ### public func hkIsLandscape() -> Bool ###
